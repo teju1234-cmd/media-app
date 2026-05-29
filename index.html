@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Galaxy Login & Registration</title>
+    <link rel="stylesheet" href="bcd.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Login Form -->
+    <div class="form active" id="loginForm">
+        <h2>Login</h2>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+         <a href="aa.html"><button>LOGIN</button></a>
+        <div class="toggle" onclick="showRegister()">New user? Register</div>
+    </div>
+
+    <!-- Register Form -->
+    <div class="form" id="registerForm">
+        <h2>Register</h2>
+        <input type="text" placeholder="Name" required>
+        <input type="text" placeholder="Address" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button>Register</button>
+        <div class="toggle" onclick="showLogin()">Already have an account? Login</div>
+    </div>
+
+</div>
+
+<script src="def.js"></script>
+</body>
+</html>
